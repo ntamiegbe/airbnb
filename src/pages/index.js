@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner"
 import Navbar from "@/components/Navbar"
 import Head from "next/head"
 
@@ -10,6 +11,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
+
+      <Banner />
     </div>
   )
 }

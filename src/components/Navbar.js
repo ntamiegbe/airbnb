@@ -4,7 +4,7 @@ import { AiOutlineSearch, AiOutlineGlobal, AiOutlineUser, AiOutlineMenu } from '
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center p-5 md:px-10 sticky top-0 z-50 shadow'>
+        <nav className='bg-white flex justify-between items-center p-5 md:px-10 sticky top-0 z-50 shadow'>
             <div className="relative h-10 w-14">
                 <Image src="https://links.papareact.com/qd3" fill style={{ objectFit: "contain", objectPosition: "left" }} />
             </div>
